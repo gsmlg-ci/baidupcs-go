@@ -14,6 +14,8 @@ FROM ghcr.io/gsmlg-dev/alpine:3.22
 
 LABEL maintainer="Jonathan Gao <gsmlg.com@gmail.com>"
 
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/baidupcs-go"
+
 ARG VERSION
 
 ENV VERSION=$VERSION
